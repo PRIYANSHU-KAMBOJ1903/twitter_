@@ -1,11 +1,98 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: Arial, sans-serif;
 }
 
-body{
-    background:3e65fe;
+body {
+    background: #5757f2;
 }
 
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #fff;
+    width: 380px;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 8px 0;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #f0f0f0;
+}
+
+.google {
+    border-color: #ddd;
+}
+
+.apple {
+    border-color: #ddd;
+}
+
+.or {
+    margin: 15px 0;
+    font-size: 14px;
+    color: gray;
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.next {
+    background: black;
+    color: white;
+    border: none;
+}
+
+.next:hover {
+    opacity: 0.8;
+}
+
+.forgot {
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.signup {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup a {
+    color: #1d9bf0;
+    text-decoration: none;
+}

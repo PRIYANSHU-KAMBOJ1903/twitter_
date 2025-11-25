@@ -1,34 +1,24 @@
-import { useState } from 'react'
+import "./App.css";
+function App(){
+  return ( <div className="container">
+        <div className="card">
+            <div className="logo">🐦</div>
 
-import './App.css'
+            <h2>Sign in to Twitter</h2>
 
-function App() {
-  const [count, setCount] = useState(0)
+            <button class="btn google">Sign in with Google</button>
+            <button class="btn apple">Sign in with Apple</button>
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+            <p class="or">or</p>
+
+            <input type="text" placeholder="Phone, email or username" className="input" />
+
+            <button className="btn next">Next</button>
+
+            <button className="btn forgot">Forgot Password</button>
+
+            <p className="signup">Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+    </div>)
 }
-
-export default App
+export default App;
